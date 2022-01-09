@@ -16,7 +16,7 @@ repos = [
   {
     img: "./Images/projects/hostting.png",
     title: "Hosting website",
-    des: "custom website for hosting using HTML and CSS techniques such as CSS flex, grid and media query, and JavaScript.",
+    des: "Hosting website using HTML and CSS techniques such as CSS flex, grid and media query, and JavaScript.",
     url: "https://mhd-abdulbaki.github.io/Hosting-website/",
     githubLink: "https://github.com/mhd-abdulbaki/Hosting-website",
   },
