@@ -35,11 +35,11 @@ repos = [
     githubLink: "https://github.com/mhd-abdulbaki/Awesome-3D-Card-",
   },
   {
-    img: "./Images/projects/todo.png",
+    img: "./Images/projects/business.png",
     title: "Todo List",
     des: "Todo List with javascript techniques including local storage",
-    url: "https://mhd-abdulbaki.github.io/Todo/",
-    githubLink: "https://github.com/mhd-abdulbaki/Todo",
+    url: "https://mhd-abdulbaki.github.io/Business-website/",
+    githubLink: "https://github.com/mhd-abdulbaki/Business-website",
   },
 ];
 
