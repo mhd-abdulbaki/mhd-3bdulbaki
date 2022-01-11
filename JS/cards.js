@@ -37,7 +37,7 @@ repos = [
   {
     img: "./Images/projects/business.png",
     title: "Business website",
-    des: "Full responsive design, using HTML, CSS "Grid, Flexbox and media query" and Javascript.",
+    des: "Full responsive design, using HTML, CSS 'Grid, Flexbox and media query' and Javascript.",
     url: "https://mhd-abdulbaki.github.io/Business-website/",
     githubLink: "https://github.com/mhd-abdulbaki/Business-website",
   },
