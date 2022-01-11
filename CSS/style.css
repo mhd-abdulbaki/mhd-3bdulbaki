@@ -120,38 +120,6 @@ h6 {
 }
 
 
-/* typing effect */
-
-.greeting-wrapper .intro {
-    display: flex;
-    margin: auto;
-}
-
-.typing {
-    position: relative;
-    margin-left: 10px;
-}
-
-.typing::after {
-    content: "";
-    position: absolute;
-    width: 1px;
-    right: -10px;
-    height: 60px;
-    border-right: 4px solid var(--cursor-color);
-    animation: blink 0.6s infinite ease;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 .nav-wrapper {
     border-radius: 5px 5px 0 0;
     grid-area: nav-wrapper;
@@ -202,6 +170,41 @@ h6 {
 
 #dot-3 {
     background: #2aca3e;
+}
+
+
+/* typing Effect */
+
+.greeting-wrapper .intro {
+    display: flex;
+    margin: 100px auto;
+    
+
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    right: -10px;
+    height: 60px;
+    border-right: 4px solid var(--cursor-color);
+    animation: blink 0.6s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .left-column {
@@ -435,6 +438,7 @@ h6 {
     font-size: 16px;
     line-height: 1.5;
     margin: 10px;
+    height: 100px;
 }
 
 .portfolio .card .image {

@@ -2,7 +2,7 @@ repos = [
   {
     img: "./Images/projects/hulu.png",
     title: "Hulu Homepage",
-    des: "Hulu homepage using HTML, CSS techniques such as CSS flex, grid and media query, and JavaScript.",
+    des: "Hulu homepage using HTML, CSS techniques such as CSS flex, grid and media query and JavaScript.",
     url: "https://mhd-abdulbaki.github.io/Hulu/",
     githubLink: "https://github.com/mhd-abdulbaki/Hulu/",
   },
@@ -37,7 +37,7 @@ repos = [
   {
     img: "./Images/projects/business.png",
     title: "Business website",
-    des: "Full responsive design, using HTML, CSS 'Grid, Flexbox and media query' and Javascript.",
+    des: "Full responsive design, using HTML, CSS techniques such as CSS flex, grid and media query and Javascript.",
     url: "https://mhd-abdulbaki.github.io/Business-website/",
     githubLink: "https://github.com/mhd-abdulbaki/Business-website",
   },
