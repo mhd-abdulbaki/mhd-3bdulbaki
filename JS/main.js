@@ -54,3 +54,5 @@ let letter = "";
   }
   setTimeout(type, 350);
 })();
+
+
