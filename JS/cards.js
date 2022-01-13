@@ -21,11 +21,11 @@ repos = [
     githubLink: "https://github.com/mhd-abdulbaki/Hosting-website",
   },
   {
-    img: "./Images/slider.png",
-    title: "Full screen image slider",
-    des: "Full screen image slider using HTML, CSS and ES6 JavaScript.",
-    url: "https://mhd-abdulbaki.github.io/Image-slider/",
-    githubLink: "https://github.com/mhd-abdulbaki/Image-slider",
+    img: "./Images/software.png",
+    title: "Software Service homepage",
+    des: "Full responsive design, with awesome full screen image slider using HTML, CSS and Javascript.",
+    url: "https://mhd-abdulbaki.github.io/software-service/",
+    githubLink: "https://github.com/mhd-abdulbaki/software-service",
   },
   {
     img: "./Images/3d-card.png",
