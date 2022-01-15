@@ -10,6 +10,7 @@
     --button-color: #000;
     --button-color-hover: rgba(0, 0, 0, 0.800);
     --cursor-color: #000;
+    --progress-color: #000;
     /* card */
     --main-color-alt: #17a2b8;
     --main-transition: 0.3s;
@@ -354,10 +355,6 @@ h6 {
     height: 25px;
     background: var(--preveiw-shadow);
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin-top: 20px; */
 }
 
 #skills .skill .progress .progress-value {
@@ -365,7 +362,7 @@ h6 {
     left: 0;
     top: 0;
     height: 100%;
-    background: linear-gradient(to right, var(--main-color-alt) 10%, var(--button-color));
+    background: linear-gradient(to right, var(--main-color-alt) 10%, var(--progress-color));
     transition: .9s linear;
     display: flex;
     justify-content: center;
