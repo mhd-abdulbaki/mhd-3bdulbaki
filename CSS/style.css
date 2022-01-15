@@ -178,7 +178,7 @@ h6 {
 .greeting-wrapper .intro {
     display: flex;
     margin: 100px auto;
-    
+
 
 }
 
@@ -260,9 +260,9 @@ h6 {
     background: #192734;
 }
 
- #green-mode {
+#green-mode {
     background: #78866b;
-} 
+}
 
 #purple-mode {
     background: #7e4c7e;
@@ -349,18 +349,18 @@ h6 {
     gap: 25px;
 }
 
-#skills .skill .progress{
+#skills .skill .progress {
     width: 100%;
     height: 25px;
     background: var(--preveiw-shadow);
     position: relative;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* margin-top: 20px; */
 }
 
-#skills .skill .progress .progress-value{
+#skills .skill .progress .progress-value {
     position: absolute;
     left: 0;
     top: 0;
@@ -368,8 +368,11 @@ h6 {
     background: linear-gradient(to right, var(--main-color-alt) 10%, var(--button-color));
     transition: .9s linear;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#skills .skill .progress span{
+
+#skills .skill .progress span {
     z-index: 10;
     color: #fff;
 }
@@ -478,7 +481,7 @@ h6 {
     align-items: center;
     text-align: center;
     color: #d5d5d5;
-  
+
     overflow: hidden;
 }
 
@@ -489,14 +492,15 @@ h6 {
 }
 
 .portfolio .card .info {
-   display: flex;
-   flex-direction: column;
-   padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
 
 .portfolio .card .info a {
     text-align: center;
 }
+
 .portfolio .more {
     width: 100%;
     padding: 10px;
@@ -539,7 +543,8 @@ h6 {
     font-size: 16px;
     padding-left: 10px;
 }
-.input-field:focus{
+
+.input-field:focus {
     outline: none;
 }
 
@@ -609,17 +614,20 @@ footer .main-container {
         grid-template-areas: "nav-wrapper""greeting-wrapper""left-column""right-column";
     }
 
-    .typing{
+    .typing {
         font-size: 32px;
     }
+
     .typing::after {
         height: 35px;
         border-right: 2px solid var(--cursor-color);
-       
+
     }
-    #preview{
+
+    #preview {
         width: 200px;
     }
+
     .preview-shadow {
         width: 200px;
     }
@@ -631,8 +639,9 @@ footer .main-container {
     .right-column {
         justify-content: center;
     }
+
     #skills {
-       
+
         grid-template-columns: 1fr;
     }
 }
