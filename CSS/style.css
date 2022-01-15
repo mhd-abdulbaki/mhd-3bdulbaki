@@ -355,6 +355,7 @@ h6 {
     height: 25px;
     background: var(--preveiw-shadow);
     position: relative;
+
 }
 
 #skills .skill .progress .progress-value {
@@ -362,11 +363,28 @@ h6 {
     left: 0;
     top: 0;
     height: 100%;
-    background: linear-gradient(to right, var(--main-color-alt) 10%, var(--progress-color));
+    background: linear-gradient(to right, var(--main-color-alt) 30%, var(--progress-color)40%, var(--main-color-alt) 70%, var(--progress-color)80%, var(--main-color-alt));
+    background-size: 300% 100%;
     transition: .9s linear;
+    animation: progress-animation 5s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+@keyframes progress-animation {
+    0% {
+        background-position: 100%;
+    }
+
+    40% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 50%;
+    }
 }
 
 #skills .skill .progress span {
