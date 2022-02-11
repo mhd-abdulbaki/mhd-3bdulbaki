@@ -1,11 +1,33 @@
 repos = [
   {
+    img: "./Images/book-store.webp",
+    title: "Book Store",
+    des: "Book Store using ReactJS and Redux Toolkit.",
+    url: "https://trusting-hamilton-049eb1.netlify.app/",
+    githubLink: "https://github.com/mhd-abdulbaki/Book-Store",
+  },
+  {
+    img: "./Images/todo.webp",
+    title: "Todo List",
+    des: "Awesome Todo List with javascript techniques including local storage.",
+    url: "https://mhd-abdulbaki.github.io/Todo/",
+    githubLink: "https://github.com/mhd-abdulbaki/Todo",
+  },
+  {
+    img: "./Images/phone.webp",
+    title: "Product Landing-page",
+    des: "Product landing page using HTML, CSS techniques such as CSS flex, grid and media query.",
+    url: "https://mhd-abdulbaki.github.io/Product-landing-page/",
+    githubLink: "https://github.com/mhd-abdulbaki/Hulu/",
+  },
+  {
     img: "./Images/hulu.WebP",
     title: "Hulu Homepage",
     des: "Hulu homepage using HTML, CSS techniques such as CSS flex, grid and media query and JavaScript.",
     url: "https://mhd-abdulbaki.github.io/Hulu/",
     githubLink: "https://github.com/mhd-abdulbaki/Hulu/",
   },
+
   {
     img: "./Images/social.WebP",
     title: "Social Network",

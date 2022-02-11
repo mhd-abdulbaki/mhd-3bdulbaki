@@ -1,3 +1,10 @@
+// close button
+let closeBtn = document.getElementById("dot-1");
+closeBtn.addEventListener("click", (e) => {
+  window.close();
+});
+
+// Theme Color
 let theme = localStorage.getItem("theme");
 if (theme == null) {
   setTheme("light");
@@ -35,7 +42,7 @@ function setTheme(mode) {
 
 // Typing Effect
 
-const texts = ["Hi, I'm MHD  3BDULBAKI"];
+const texts = ["Hi, I'm MHD 3BDULBAKI    "];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -55,4 +62,7 @@ let letter = "";
   setTimeout(type, 350);
 })();
 
-
+// Footer Date
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("demo").innerHTML = year;

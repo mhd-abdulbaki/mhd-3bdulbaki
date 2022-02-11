@@ -179,8 +179,6 @@ h6 {
 .greeting-wrapper .intro {
     display: flex;
     margin: 100px auto;
-
-
 }
 
 .typing {
@@ -188,12 +186,11 @@ h6 {
     margin-left: 10px;
 }
 
-
 .typing::after {
     content: "";
     position: absolute;
     width: 1px;
-    right: -5px;
+    right: -6px;
     height: 60px;
     border-right: 3px solid var(--cursor-color);
     animation: blink 0.6s infinite ease;
@@ -622,6 +619,11 @@ footer .main-container {
     .main-container {
         width: 95%;
     }
+
+    .intro-wrapper .intro {
+        width: 80%;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -630,14 +632,18 @@ footer .main-container {
         grid-template-areas: "nav-wrapper""greeting-wrapper""left-column""right-column";
     }
 
-    .typing {
+    .intro-wrapper .intro {
+        width: 70%;
+        height: 100px;
+    }
+
+    .intro-wrapper .intro .typing {
         font-size: 32px;
     }
 
-    .typing::after {
+    .intro-wrapper .intro .typing::after {
         height: 35px;
         border-right: 2px solid var(--cursor-color);
-
     }
 
     #preview {
