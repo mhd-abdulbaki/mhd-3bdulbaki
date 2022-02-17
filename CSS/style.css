@@ -410,6 +410,7 @@ h6 {
 .links i:hover,
 .links i a:hover {
     color: var(--button-color-hover);
+    transform: scale(0.95);
 }
 
 #social-img {
@@ -447,6 +448,7 @@ h6 {
     counter-increment: services;
     transition: var(--main-transition);
     position: relative;
+    text-align: center;
 }
 
 .portfolio .card::before {
@@ -470,10 +472,22 @@ h6 {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    text-align: left;
-    margin: 10px 5px;
+    text-align: center;
+    margin: 10px 5px 20px;
+    position: relative;
+}
+
+.card-title::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 100px;
+    height: 4px;
+    background: var(--button-color);
+    transform: translateX(-50%);
 }
 
 .card-intro {
@@ -481,7 +495,7 @@ h6 {
     line-height: 1.5;
     margin: 10px;
     height: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .portfolio .card .image {
@@ -579,21 +593,39 @@ h6 {
 /* Footer */
 
 footer {
-    height: 100px;
     background: var(--main-color);
     padding: 50px;
+    color: var(--main-text)
 }
 
-footer .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer .footer-contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+footer .main-container .column .title {
+    font-size: 1.3rem;
+}
+
+footer .main-container .column p {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+footer .main-container .column .social-links .links a {
+    font-size: .8rem;
+    color: var(--main-text)
+}
+
+footer .main-container .copyright {
+    margin-top: 40px;
+    text-align: center;
     line-height: 1.6;
-    font-size: 1.2rem;
-    color: var(--secondary-text);
-}
+    font-size: 1.2em;
 
+}
 
 /* End Footer */
 
@@ -603,7 +635,7 @@ footer .main-container {
     padding: 10px 20px;
     margin-top: 5px;
     transition: var(--main-transition);
-    font-size: 20px;
+    font-size: 18px;
     background: var(--button-color);
     color: var(--main-color);
 }
