@@ -659,6 +659,8 @@ footer .main-container .copyright {
 }
 
 @media screen and (max-width: 800px) {
+
+
     .intro-wrapper {
         grid-template-columns: 1fr;
         grid-template-areas: "nav-wrapper""greeting-wrapper""left-column""right-column";
@@ -701,5 +703,9 @@ footer .main-container .copyright {
 
     footer .main-container {
         text-align: center;
+    }
+
+    .column {
+        max-width: 80%;
     }
 }

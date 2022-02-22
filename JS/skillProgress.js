@@ -2,31 +2,41 @@
 let progress = [
   {
     lang: "Javascript",
-    progVal: "80%",
+    progVal: "85%",
   },
   {
     lang: "HTML",
     progVal: "98%",
   },
   {
-    lang: "ReactJS",
-    progVal: "65%",
+    lang: "TypeScript",
+    progVal: "70%",
   },
+
   {
     lang: "CSS",
-    progVal: "85%",
+    progVal: "90%",
   },
   {
-    lang: "NextJS",
-    progVal: "60%",
+    lang: "ReactJS",
+    progVal: "80%",
   },
+
   {
     lang: "SASS",
     progVal: "80%",
   },
   {
+    lang: "NextJS",
+    progVal: "70%",
+  },
+  {
+    lang: "Bootstrap",
+    progVal: "80%",
+  },
+  {
     lang: "Redux",
-    progVal: "75%",
+    progVal: "80%",
   },
   {
     lang: "Git",

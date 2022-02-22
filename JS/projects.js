@@ -22,25 +22,6 @@ const projects = [
     visit: "https://mhd-abdulbaki.github.io/Todo/",
     source: "https://github.com/mhd-abdulbaki/Todo",
   },
-
-  {
-    image: "./Images/hulu.WebP",
-    title: "Hulu Homepage",
-    description:
-      "Hulu homepage using HTML, CSS techniques such as CSS flex, grid and media query and JavaScript.",
-    visit: "https://mhd-abdulbaki.github.io/Hulu/",
-    source: "https://github.com/mhd-abdulbaki/Hulu/",
-  },
-
-  {
-    image: "./Images/social.WebP",
-    title: "Social Network",
-    description:
-      "Design Social Network using Sass and CSS techniques such as CSS flex, grid and media query.",
-    visit:
-      "https://mhd-abdulbaki.github.io/Social-Network-Theme/dashboard.html",
-    source: "https://github.com/mhd-abdulbaki/Social-Network-Theme",
-  },
   {
     image: "./Images/hosting.WebP",
     title: "Hosting website",
@@ -50,12 +31,38 @@ const projects = [
     source: "https://github.com/mhd-abdulbaki/Hosting-website",
   },
   {
+    image: "./Images/social.WebP",
+    title: "Social Network",
+    description:
+      "Design Social Network using Sass and CSS techniques such as CSS flex, grid and media query.",
+    visit:
+      "https://mhd-abdulbaki.github.io/Social-Network-Theme/dashboard.html",
+    source: "https://github.com/mhd-abdulbaki/Social-Network-Theme",
+  },
+
+  {
+    image: "./Images/hulu.WebP",
+    title: "Hulu Homepage",
+    description:
+      "Hulu homepage using HTML, CSS techniques such as CSS flex, grid and media query and JavaScript.",
+    visit: "https://mhd-abdulbaki.github.io/Hulu/",
+    source: "https://github.com/mhd-abdulbaki/Hulu/",
+  },
+  {
     image: "./Images/software.WebP",
-    title: "Software Service homepage",
+    title: "Business website",
     description:
       "Full responsive design, with awesome full screen image slider using HTML, CSS and Javascript.",
     visit: "https://mhd-abdulbaki.github.io/software-service/",
     source: "https://github.com/mhd-abdulbaki/software-service",
+  },
+  {
+    image: "./Images/business.WebP",
+    title: "Business website II",
+    description:
+      "Full responsive design, using HTML, CSS techniques such as CSS flex, grid and media query and Javascript.",
+    visit: "https://mhd-abdulbaki.github.io/Business-website/",
+    source: "https://github.com/mhd-abdulbaki/Business-website",
   },
   {
     image: "./Images/3d-card.WebP",
@@ -63,13 +70,5 @@ const projects = [
     description: "Awesome 3D Card Animation using vanilla Javascript",
     visit: "https://mhd-abdulbaki.github.io/Awesome-3D-Card-/",
     source: "https://github.com/mhd-abdulbaki/Awesome-3D-Card-",
-  },
-  {
-    image: "./Images/business.WebP",
-    title: "Business website",
-    description:
-      "Full responsive design, using HTML, CSS techniques such as CSS flex, grid and media query and Javascript.",
-    visit: "https://mhd-abdulbaki.github.io/Business-website/",
-    source: "https://github.com/mhd-abdulbaki/Business-website",
   },
 ];
