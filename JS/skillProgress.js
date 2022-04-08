@@ -40,7 +40,7 @@ let progress = [
   },
   {
     lang: "Git",
-    progVal: "90%",
+    progVal: "80%",
   },
 ];
 let skills = document.getElementById("skills");

@@ -1,4 +1,6 @@
 :root {
+
+
     --main-color: #eaeaea;
     --secondary-color: #fff;
     --border-color: #c1c1c1;
@@ -405,8 +407,6 @@ h6 {
     transition: 0.5s;
 }
 
-
-
 .links i:hover,
 .links i a:hover {
     color: var(--button-color-hover);
@@ -449,6 +449,7 @@ h6 {
     transition: var(--main-transition);
     position: relative;
     text-align: center;
+
 }
 
 .portfolio .card::before {
@@ -538,15 +539,53 @@ h6 {
     margin-top: 35px;
 }
 
-
-
 /* Portfolio Section End  */
 
 
 /* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
-.contact h3 {
+h3 {
     text-align: center;
+}
+
+.right .contact-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.right .contact-info .row:nth-child(2) {
+    margin-left: 50px;
+}
+
+.right .contact-info .row:nth-child(3) {
+    margin-left: 100px;
+}
+
+.right .contact-info .row {
+    width: 300px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    background: var(--main-color);
+    margin-bottom: 25px
+}
+
+
+.right .contact-info .row p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.right .contact-info .row .icon {
+    color: var(--button-color);
+    font-size: 20px;
 }
 
 #contact-form {
@@ -595,27 +634,6 @@ h6 {
 footer {
     background: var(--main-color);
     padding: 50px;
-    color: var(--main-text)
-}
-
-footer .footer-contain {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
-}
-
-footer .main-container .column .title {
-    font-size: 1.3rem;
-}
-
-footer .main-container .column p {
-    font-size: 1rem;
-    font-weight: bold;
-
-}
-
-footer .main-container .column .social-links .links a {
-    font-size: .8rem;
     color: var(--main-text)
 }
 
@@ -699,6 +717,20 @@ footer .main-container .copyright {
     #skills {
 
         grid-template-columns: 1fr;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .contact .contact-info .row {
+        width: 100%;
+    }
+
+    .contact .contact-info .row:nth-child(2),
+    .contact .contact-info .row:nth-child(3) {
+        margin-left: 0;
     }
 
     footer .main-container {

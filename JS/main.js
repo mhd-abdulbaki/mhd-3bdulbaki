@@ -10,7 +10,7 @@ closeBtn.addEventListener("click", (e) => {
 // Theme Color
 let theme = localStorage.getItem("theme");
 if (theme == null) {
-  setTheme("light");
+  setTheme("blue");
 } else {
   setTheme(theme);
 }
@@ -28,7 +28,6 @@ function setTheme(mode) {
   if (mode == "light") {
     document.getElementById("theme-style").href = "CSS/style.css";
   }
-
   if (mode == "blue") {
     document.getElementById("theme-style").href = "CSS/blue.css";
   }
