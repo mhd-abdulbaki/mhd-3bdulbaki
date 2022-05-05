@@ -1,18 +1,25 @@
 const projects = [
   {
+    image: "./Images/ecommrece.webp",
+    title: "E-Commerce App",
+    description: `E-Commerce App using NextJS, React Hooks, SANITY and Stripe. . . . . .  !! Use VPN when visit !!`,
+    visit: "https://3bdulbaki-store.vercel.app/",
+    source: "https://github.com/mhd-abdulbaki/e_commerce_sanity",
+  },
+  {
+    image: "./Images/delicious.webp",
+    title: "Delicious Recipe",
+    description: "Recipe App using React Hooks and RapidAPI",
+    visit: "https://deliciouss-food.netlify.app/",
+    source: "https://github.com/mhd-abdulbaki/deliciouss",
+  },
+  {
     image: "./Images/chat.webp",
     title: "Chat App",
     description:
-      "Chat app using chatEngine.io, React hooks and Firebase Authentication.",
+      "Chat app using chatEngine.io, React Hooks and Firebase Authentication.",
     visit: "https://3dulbaki-chat.netlify.app/",
     source: "https://github.com/mhd-abdulbaki/Chat-App",
-  },
-  {
-    image: "./Images/book-store.webp",
-    title: "Book Store",
-    description: "Book Store using React hooks and Redux Toolkit.",
-    visit: "https://3bdulbaki-bookstore.netlify.app",
-    source: "https://github.com/mhd-abdulbaki/Book-Store",
   },
   {
     image: "./Images/todo.webp",
@@ -63,12 +70,5 @@ const projects = [
       "Full responsive design, using HTML, CSS techniques such as CSS flex, grid and media query and Javascript.",
     visit: "https://mhd-abdulbaki.github.io/Business-website/",
     source: "https://github.com/mhd-abdulbaki/Business-website",
-  },
-  {
-    image: "./Images/3d-card.WebP",
-    title: "3D Card Animation",
-    description: "Awesome 3D Card Animation using vanilla Javascript",
-    visit: "https://mhd-abdulbaki.github.io/Awesome-3D-Card-/",
-    source: "https://github.com/mhd-abdulbaki/Awesome-3D-Card-",
   },
 ];

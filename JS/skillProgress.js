@@ -18,7 +18,7 @@ let progress = [
     progVal: "90%",
   },
   {
-    lang: "ReactJS",
+    lang: "React",
     progVal: "80%",
   },
 
@@ -28,7 +28,7 @@ let progress = [
   },
   {
     lang: "NextJS",
-    progVal: "70%",
+    progVal: "60%",
   },
   {
     lang: "Bootstrap",
@@ -36,11 +36,11 @@ let progress = [
   },
   {
     lang: "Redux",
-    progVal: "80%",
+    progVal: "70%",
   },
   {
     lang: "Git",
-    progVal: "80%",
+    progVal: "70%",
   },
 ];
 let skills = document.getElementById("skills");
